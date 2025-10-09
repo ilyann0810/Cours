@@ -1,4 +1,7 @@
-# Ignore all CSV files
-*.csv
+# Ignorer seulement les gros fichiers CSV problématiques
+Data_Visualisation/assignement/assignement2/vf-beauamp1.1.0.csv
+Data_Visualisation/assignement/assignement2/vf-beauamp1.1.0_clean.csv
+Data_Visualisation/assignement/assignement2/vf-beauamp1.1.0_v2_clean_columns_dropped.csv
+Data_Visualisation/assignement/assignement2/vf-beauamp1.1.0_clean_columns_dropped.csv
 
 
