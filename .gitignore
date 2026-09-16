@@ -5,3 +5,13 @@ Data_Visualisation/assignement/assignement2/vf-beauamp1.1.0_v2_clean_columns_dro
 Data_Visualisation/assignement/assignement2/vf-beauamp1.1.0_clean_columns_dropped.csv
 
 
+
+# Environnements virtuels Python
+.venv/
+venv/
+env/
+
+# Videos (trop volumineuses pour GitHub)
+*.mp4
+*.mov
+*.avi

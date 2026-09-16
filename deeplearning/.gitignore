@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Réglages locaux Claude Code
+.claude/
+**/.claude/
+
+# Caches / données volumineuses (datasets téléchargés à part)
+.cache/
+data/
+*.zip
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini

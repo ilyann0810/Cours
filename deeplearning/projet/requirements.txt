@@ -1,0 +1,20 @@
+# Environnement Keras 3 sur backend PyTorch (PAS de TensorFlow)
+
+# --- PyTorch avec support CUDA 12.4 (GPU NVIDIA, ex : RTX 4070 Ti) ---
+# L'index ci-dessous fournit les roues GPU. Sans lui, pip installe la
+# version "+cpu" (torch.cuda.is_available() == False).
+# CPU uniquement ? Supprime la ligne --extra-index-url et le "+cu124".
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0+cu124
+
+keras>=3
+transformers>=5
+datasets>=3
+scikit-learn
+matplotlib
+seaborn
+numpy
+Pillow
+
+# Kernel Jupyter (pour exécuter le notebook dans VS Code)
+ipykernel
